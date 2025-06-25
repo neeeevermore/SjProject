@@ -1,0 +1,211 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+  line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+nav ul {
+  list-style:none;
+}
+  blockquote, q {
+  quotes:none;
+}
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  content:'';
+  content:none;
+}
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+input, select {
+  vertical-align:middle;
+}
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+.header-content--block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 30px; */
+  width: 50%;
+}
+.header-content--block p {
+  color: rgb(167, 92, 92);
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+.header-content--block--menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 47%;
+  font-size: 20px;
+}
+.header-content--block--menu--element {
+  margin-left: 5px;
+}
+.header-content--block--menu--element a {
+  text-decoration: none;
+}
+.welcomepage {
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+}
+.welcomepage-bar {
+  width: 100%;
+  height: 100%;
+  background-image: url(/graphic/i.webp);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.welcomepage-bar p {
+  color: white;
+  white-space: nowrap;
+}
+.welcomepage-bar--string {
+  height: 120px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin-top: -3%;
+}
+.welcomepage-bar--string_text1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.welcomepage-bar--string_text2 {
+  margin-top: -15px;
+  font-size: 20px;
+  font-style: italic;
+}
+.welcomepage-bar--string2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 60%;
+  height: 90px;
+  padding: 5px 15px 5px 15px;
+}
+.welcomepage-bar--string_name {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.welcomepage-bar--string_name--text1 {
+  font-size: 18px;
+}
+.welcomepage-bar--string_name--text_ol {
+  color: white;
+  list-style-type: none;
+}
+.welcomepage-bar--string_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomepage-bar--string_button__1 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(138, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.welcomepage-bar--string_button__1:hover {
+  background-color: rgb(131, 101, 101);
+}
+.welcomepage-bar--string_button__1--text {
+
+}
+.mainpage-content {
+
+}
+.footer {
+
+}
+

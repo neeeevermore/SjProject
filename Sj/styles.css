@@ -130,7 +130,7 @@ input, select {
 .welcomepage-bar {
   width: 100%;
   height: 100%;
-  background-image: url(/graphic/i.webp);
+  background-image: url(graphic/i.webp);
   display: flex;
   justify-content: center;
   flex-direction: column;
